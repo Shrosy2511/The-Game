@@ -116,7 +116,6 @@ if scene2 == 'sword':
                 sys.stdout.write(c)
                 sys.stdout.flush()
                 time.sleep(0.05)
-            print(npcText2)
             scene5 = input('do you bring the man to the nearest village to get him medical help or do you let him die? rescue/abandon ')
             if scene5 == 'rescue':
                 for c in text7:
